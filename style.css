@@ -6,43 +6,55 @@
 
 nav
 {
-      background-color: black;
-      color: white;
-      padding: 25px;
+  background-color: black;
+  color: white;
+  padding: 25px;
 }
 
 li,h1,ul
 {
        
-      display: inline;
+  display: inline;
 }
 ul
 {
   margin-left: 60%;
- 
-  
+
+
 }
 
 
 li{
   color: gray;
   cursor: pointer;
+
 }
 
 
 li:hover{
   color: white;
+
 }
 
 
 input{
-   width: 70%
+  width: 60%;
+  padding: 15px;
 }
 
-.searchbar
-{
-   width: 70%
-   
-   padding: 15px
+.Searchbar{
+  padding: 50px;
+  text-align: center;
 }
 
+.box{
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  display: inline block;
+  width: 150px;
+}
+img{
+  width: 150px;
+  height: auto;
+}
