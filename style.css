@@ -1,1 +1,48 @@
-style
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+nav
+{
+      background-color: black;
+      color: white;
+      padding: 25px;
+}
+
+li,h1,ul
+{
+       
+      display: inline;
+}
+ul
+{
+  margin-left: 60%;
+ 
+  
+}
+
+
+li{
+  color: gray;
+  cursor: pointer;
+}
+
+
+li:hover{
+  color: white;
+}
+
+
+input{
+   width: 70%
+}
+
+.searchbar
+{
+   width: 70%
+   
+   padding: 15px
+}
+
